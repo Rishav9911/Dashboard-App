@@ -1,0 +1,20 @@
+{
+    "CSPM Executive Dashboard": [
+      {
+        "name": "Cloud Accounts",
+        "text": "Connected (2), Not Connected (2)"
+      },
+      {
+        "name": "Cloud Account Risk Assessment",
+        "text": "Passed (7253), Failed (1689)"
+      }
+    ],
+    "CWPP Dashboard": [
+      {
+        "name": "Agent Status",
+        "text": "Active (85), Inactive (7)"
+      }
+    ],
+    "Registry Scan": []
+  }
+  

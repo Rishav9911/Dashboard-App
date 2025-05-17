@@ -1,0 +1,52 @@
+/* widget.css */
+
+.widget-card {
+  border-radius: 1rem;
+  box-shadow: 0 6px 14px rgba(245, 245, 245, 0.599);
+  transition: all 0.3s ease-in-out;
+  /* background-color:rgba(49, 62, 247, 0.711); */
+  background-color: #4E4FEB;
+}
+
+.widget-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(245, 245, 245, 0.599);
+}
+
+.widget-card .card-body {
+  padding: 1.5rem;
+}
+
+.widget-card .card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.widget-card .card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.widget-card .btn-outline-danger {
+  border: 1px solid #dc3545;
+  color: #dc3545;
+  background-color: #fff;
+  font-size: 1rem;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -8px; /* Moves it slightly upward */
+  transition: all 0.2s ease-in-out;
+}
+
+.widget-card .btn-outline-danger:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
