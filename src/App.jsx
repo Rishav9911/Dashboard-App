@@ -34,9 +34,9 @@ function App() {
       </main>
       </div>
 
-      <footer className="footer mt-auto py-3 bg-light">
-        <div className="container text-center">
-          <span className="text-muted">Dashboard</span>
+      <footer className="footer mt-auto py-3 bg-dark text-white">
+        <div className="container text-center text-white">
+          <span className=" text-white">Rishav@Dashboard</span>
         </div>
       </footer>
     </div>

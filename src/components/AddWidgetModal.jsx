@@ -8,7 +8,6 @@ const AddWidgetModal = ({ show, onClose, categoryName }) => {
   
   const addWidget = useDashboardStore((state) => state.addWidget);
   
-  // Reset form when modal opens with a new category
   useEffect(() => {
     if (show) {
       setWidgetName('');
@@ -19,7 +18,6 @@ const AddWidgetModal = ({ show, onClose, categoryName }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Create new widget and add it to the selected category
     const newWidget = {
       name: widgetName,
       text: widgetText
@@ -27,7 +25,6 @@ const AddWidgetModal = ({ show, onClose, categoryName }) => {
     
     addWidget(categoryName, newWidget);
     
-    // Close modal
     onClose();
   };
   

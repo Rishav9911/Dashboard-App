@@ -1,20 +1,16 @@
-// src/components/SearchBar.jsx
 import React from 'react';
 import useDashboardStore from '../store/dashboardStore';
-import { FaTimes } from 'react-icons/fa'; // Importing the close icon
+import { FaTimes } from 'react-icons/fa'; 
 
 const SearchBar = () => {
-  // Get searchQuery and setSearchQuery from our store
   const searchQuery = useDashboardStore(state => state.searchQuery);
   const setSearchQuery = useDashboardStore(state => state.setSearchQuery);
   
-  // Handle input changes
   const handleChange = (e) => {
     setSearchQuery(e.target.value);
     console.log('Search query updated:', e.target.value); // Debug log
   };
   
-  // Handle form submission (prevent default page reload)
   const handleSubmit = (e) => {
     e.preventDefault();
   };
