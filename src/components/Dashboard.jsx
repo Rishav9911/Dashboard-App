@@ -54,7 +54,7 @@ const Dashboard = () => {
         </div>
         <div className="col-md-6 d-flex justify-content-end">
           <CategoryManager />
-          <button className="btn btn-danger d-flex align-items-center gap-2 rounded-pill px-4 py-1 shadow-sm ms-3"
+          <button   className="btn btn-danger d-flex align-items-center gap-2 rounded-pill px-4 py-2 shadow-sm ms-3"
             style={{ height: '45px' }} onClick={handleResetDashboard}>
             Reset Dashboard
           </button>
