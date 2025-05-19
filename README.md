@@ -1,12 +1,54 @@
-# React + Vite
+# Widget Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based dashboard project to manage categories and widgets with smooth UI, slider navigation, and persistent state using Zustand.
 
-Currently, two official plugins are available:
+## Deployed Link
+https://dashboard-app-pink-two.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+This project is a customizable widget dashboard where users can add, remove, and manage widget categories. Widgets inside categories are displayed in a horizontal slider instead of multiple rows for better user experience. The application uses Zustand for state management with persistence, Bootstrap for styling, and React icons for UI elements.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Core Features
+
+- Dynamic categories with the ability to add and remove  
+- Add, remove, and toggle visibility of widgets within categories  
+- Widgets and categories lists presented as horizontal sliders with smooth scrolling  
+- Persistent state stored in `localStorage` to keep data across page reloads
+- Manage widgets option to check or uncheck widgets visibility 
+- Search functionality to filter widgets by name or content  
+- Responsive design using Bootstrap 
+- Clean and user-friendly interface with React icons  
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or above recommended)  
+- npm (comes with Node.js)  
+
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+
+2. Install dependencies
+   ```bash
+    npm install
+3. Run the development server
+   ```bash
+   npm start
+4. Open your browser and go to
+    ```bash
+    http://localhost:3000
+
+## Technologies Used
+
+- React  
+- Zustand (state management with persistence)  
+- Bootstrap 5  
+- React Icons  
+
