@@ -2,6 +2,9 @@
 
 A React-based dashboard project to manage categories and widgets with smooth UI, slider navigation, and persistent state using Zustand.
 
+## Deployed Link
+https://dashboard-app-pink-two.vercel.app/
+
 ## Description
 
 This project is a customizable widget dashboard where users can add, remove, and manage widget categories. Widgets inside categories are displayed in a horizontal slider instead of multiple rows for better user experience. The application uses Zustand for state management with persistence, Bootstrap for styling, and React icons for UI elements.
